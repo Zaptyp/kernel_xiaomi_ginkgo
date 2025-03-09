@@ -17,8 +17,8 @@ export PATH="$TC_DIR/bin:$PATH"
 sudo -E apt-get -qq update
 sudo -E apt-get -qq install bc python2 python3 python-is-python3
 
-# KernelSU
-curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+# KernelSU-Next
+curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -
 
 # Check for essentials
 if ! [ -d "${TC_DIR}" ]; then
