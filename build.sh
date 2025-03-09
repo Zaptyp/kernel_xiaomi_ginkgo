@@ -10,7 +10,7 @@ TC_DIR="$HOME/tc/prelude-clang"
 GCC_64_DIR="$HOME/tc/aarch64-linux-android-4.9"
 GCC_32_DIR="$HOME/tc/arm-linux-androideabi-4.9"
 AK3_DIR="AnyKernel3"
-DEFCONFIG="ginkgo-stock_defconfig"
+DEFCONFIG="vendor/ginkgo-perf_defconfig"
 export PATH="$TC_DIR/bin:$PATH"
 
 # Build Environment
