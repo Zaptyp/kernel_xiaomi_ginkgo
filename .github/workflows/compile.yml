@@ -11,8 +11,6 @@ jobs:
          uses: actions/checkout@v4
        - name: Building Kernel.
          run: |
-             ls -la
-             cd ./kernel_xiaomi_ginkgo/kernel
              chmod 777 build.sh
              ./build.sh
 
