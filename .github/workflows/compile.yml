@@ -6,13 +6,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
        - name: Checkout kernel.
          uses: actions/checkout@v4
        - name: Building Kernel.
          run: |
-             cd kernel
+             ls -la
+             cd ./kernel_xiaomi_ginkgo/kernel
              chmod 777 build.sh
              ./build.sh
 
